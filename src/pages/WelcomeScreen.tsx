@@ -29,6 +29,7 @@ const WelcomeScreen = () => {
           >
             Selamat Datang di BookBridge
           </h2>
+
           <p
             className="text-muted-foreground text-center mb-10 animate-fade-in"
             style={{ animationDelay: '0.3s' }}
@@ -49,6 +50,7 @@ const WelcomeScreen = () => {
           >
             Daftar
           </Button>
+
           <Button
             variant="welcomeOutline"
             size="lg"
