@@ -36,73 +36,83 @@ const AccountPage = () => {
 
   return (
     <div className="min-h-screen bg-background pb-24">
-      {/* Profile Header */}
-      <div className="gradient-teal px-4 pt-8 pb-12">
-        <div className="flex items-center gap-4">
-          <div className="w-20 h-20 rounded-full bg-white/20 flex items-center justify-center">
-            <User className="w-10 h-10 text-white" />
+      {/* Header */}
+      <div className="gradient-teal px-4 pt-10 pb-16">
+        <div className="max-w-5xl mx-auto flex items-center gap-6">
+          <div className="w-24 h-24 rounded-full bg-white/20 flex items-center justify-center">
+            <User className="w-12 h-12 text-white" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-white">Pembaca</h1>
+            <h1 className="text-2xl font-bold text-white">Pembaca</h1>
             <p className="text-white/80 text-sm">pembaca@email.com</p>
-            <span className="inline-block mt-2 px-3 py-1 bg-white/20 rounded-full text-xs font-medium text-white">
+            <span className="inline-block mt-3 px-3 py-1 bg-white/20 rounded-full text-xs font-medium text-white">
               Member Premium
             </span>
           </div>
         </div>
       </div>
 
-      {/* Stats Card */}
-      <div className="mx-4 -mt-6 bg-card rounded-2xl p-4 shadow-card animate-fade-up">
-        <div className="grid grid-cols-3 gap-4">
-          {stats.map(({ icon: Icon, value, label }) => (
-            <div key={label} className="text-center">
-              <div className="w-10 h-10 mx-auto bg-primary/10 rounded-xl flex items-center justify-center mb-2">
-                <Icon className="w-5 h-5 text-primary" />
+      {/* Content */}
+      <main className="max-w-5xl mx-auto px-4">
+        {/* Stats */}
+        <div className="-mt-10 bg-card rounded-2xl p-6 shadow-card animate-fade-up">
+          <div className="grid grid-cols-3 gap-6">
+            {stats.map(({ icon: Icon, value, label }) => (
+              <div key={label} className="text-center">
+                <div className="w-12 h-12 mx-auto bg-primary/10 rounded-xl flex items-center justify-center mb-3">
+                  <Icon className="w-6 h-6 text-primary" />
+                </div>
+                <p className="text-xl font-bold text-foreground">{value}</p>
+                <p className="text-sm text-muted-foreground">{label}</p>
               </div>
-              <p className="font-bold text-foreground">{value}</p>
-              <p className="text-xs text-muted-foreground">{label}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Menu Items */}
-      <div className="px-4 mt-6 space-y-2 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-        {menuItems.map(({ icon: Icon, label, path }) => (
-          <button
-            key={path}
-            onClick={() => navigate(path)}
-            className="w-full flex items-center justify-between p-4 bg-card rounded-xl hover:bg-muted transition-colors"
-          >
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-muted rounded-xl flex items-center justify-center">
-                <Icon className="w-5 h-5 text-foreground" />
-              </div>
-              <span className="font-medium text-foreground">{label}</span>
-            </div>
-            <ChevronRight className="w-5 h-5 text-muted-foreground" />
-          </button>
-        ))}
-
-        {/* Logout Button */}
-        <button
-          onClick={handleLogout}
-          className="w-full flex items-center justify-between p-4 bg-card rounded-xl hover:bg-destructive/10 transition-colors mt-4"
-        >
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-destructive/10 rounded-xl flex items-center justify-center">
-              <LogOut className="w-5 h-5 text-destructive" />
-            </div>
-            <span className="font-medium text-destructive">Keluar</span>
+            ))}
           </div>
-        </button>
-      </div>
+        </div>
 
-      {/* App Version */}
-      <p className="text-center text-xs text-muted-foreground mt-8">
-        BookBridge v1.0.0
-      </p>
+        {/* Menu */}
+        <div
+          className="mt-8 space-y-3 animate-fade-in"
+          style={{ animationDelay: '0.1s' }}
+        >
+          {menuItems.map(({ icon: Icon, label, path }) => (
+            <button
+              key={path}
+              onClick={() => navigate(path)}
+              className="w-full flex items-center justify-between p-5 bg-card rounded-xl hover:bg-muted transition-colors"
+            >
+              <div className="flex items-center gap-4">
+                <div className="w-11 h-11 bg-muted rounded-xl flex items-center justify-center">
+                  <Icon className="w-5 h-5 text-foreground" />
+                </div>
+                <span className="font-medium text-foreground text-base">
+                  {label}
+                </span>
+              </div>
+              <ChevronRight className="w-5 h-5 text-muted-foreground" />
+            </button>
+          ))}
+
+          {/* Logout */}
+          <button
+            onClick={handleLogout}
+            className="w-full flex items-center justify-between p-5 bg-card rounded-xl hover:bg-destructive/10 transition-colors mt-4"
+          >
+            <div className="flex items-center gap-4">
+              <div className="w-11 h-11 bg-destructive/10 rounded-xl flex items-center justify-center">
+                <LogOut className="w-5 h-5 text-destructive" />
+              </div>
+              <span className="font-medium text-destructive text-base">
+                Keluar
+              </span>
+            </div>
+          </button>
+        </div>
+
+        {/* Version */}
+        <p className="text-center text-xs text-muted-foreground mt-10">
+          BookBridge v1.0.0
+        </p>
+      </main>
 
       <BottomNav />
     </div>
