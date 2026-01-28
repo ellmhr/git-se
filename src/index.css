@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 20% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 10%;
+
+    --primary: 172 65% 46%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 172 30% 95%;
+    --secondary-foreground: 172 65% 30%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 10% 46%;
+
+    --accent: 172 40% 94%;
+    --accent-foreground: 172 65% 30%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 172 65% 46%;
+
+    --radius: 1rem;
+
+    /* Custom tokens */
+    --teal: 172 65% 46%;
+    --teal-light: 172 40% 94%;
+    --teal-dark: 172 65% 38%;
+    --surface: 220 20% 98%;
+    --surface-hover: 220 14% 95%;
+    --text-primary: 220 20% 10%;
+    --text-secondary: 220 10% 46%;
+    --text-tertiary: 220 8% 60%;
+    --shadow-soft: 0 2px 8px -2px hsl(220 20% 10% / 0.08);
+    --shadow-card: 0 4px 16px -4px hsl(220 20% 10% / 0.1);
+    --shadow-elevated: 0 8px 24px -8px hsl(220 20% 10% / 0.12);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 172 65% 46%;
+  }
+
+  .dark {
+    --background: 220 20% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 20% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 20% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 172 65% 46%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 0 0% 90%;
+
+    --muted: 220 20% 18%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 220 20% 18%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 172 65% 46%;
+
+    --sidebar-background: 220 20% 10%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 172 65% 46%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 220 20% 20%;
+    --sidebar-ring: 172 65% 46%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer components {
+  .book-card {
+    @apply bg-card rounded-2xl p-3 transition-all duration-300;
+    box-shadow: var(--shadow-card);
+  }
+
+  .book-card:hover {
+    box-shadow: var(--shadow-elevated);
+    transform: translateY(-2px);
+  }
+
+  .nav-item {
+    @apply flex flex-col items-center gap-1 py-2 px-4 transition-colors duration-200;
+  }
+
+  .nav-item.active {
+    @apply text-primary;
+  }
+
+  .nav-item:not(.active) {
+    @apply text-muted-foreground;
+  }
+
+  .search-input {
+    @apply w-full bg-surface rounded-xl px-4 py-3 pl-11 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-200;
+  }
+
+  .tag-chip {
+    @apply px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer;
+  }
+
+  .tag-chip.active {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  .tag-chip:not(.active) {
+    @apply bg-secondary text-secondary-foreground hover:bg-primary/10;
+  }
+
+  .price-badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-semibold bg-primary/10 text-primary;
+  }
+
+  .format-badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-medium bg-muted text-muted-foreground;
+  }
+
+  .section-title {
+    @apply text-lg font-bold text-foreground;
+  }
+
+  .gradient-teal {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(172 65% 55%) 100%);
+  }
+
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-lg;
+  }
+}
