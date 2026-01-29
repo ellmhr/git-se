@@ -265,13 +265,46 @@ Ini adalah cerita kita. Ceritaku. Ceritamu.`,
 
 Namaku Lail. Aku tinggal di kota yang sudah tidak lagi mengenal hujan. Teknologi telah mengubah segalanya. Cuaca bisa diatur, musim bisa ditentukan.
 
-Tapi aku masih ingat hujan. Hujan pertama yang kulihat, ketika aku berumur lima tahun.`,
+Tapi aku masih ingat hujan. Hujan pertama yang kulihat, ketika aku berumur lima tahun.
+Namaku Lail. Aku tinggal di kota yang sudah tidak lagi mengenal hujan. Teknologi telah mengubah segalanya. Cuaca bisa diatur, musim bisa ditentukan.
+
+Tapi aku masih ingat hujan. Hujan pertama yang kulihat, ketika aku berumur lima tahun. Saat itu, tetesan air seolah menari di atas atap rumah, dan aroma tanah yang basah membuatku merasa hidup dengan cara yang tak terlukiskan. Hujan itu menyapu kota, mengubah jalanan dari abu-abu menjadi warna-warni kebahagiaan. Anak-anak berlari keluar, menari dan bermain di genangan air.
+
+Kini, hujan hanya menjadi kenangan yang tersimpan dalam ingatan orang tua dan cerita-cerita lama. Di kota ini, cuaca diatur dengan perangkat canggih. Kita punya "Pengatur Cuaca" yang menciptakan matahari cerah atau dinginnya salju, tetapi hujan tidak ada lagi. Beberapa orang mengatakan itu membuat hidup lebih mudah, tak perlu repot menyiapkan payung atau menghindari genangan. Namun, ada sesuatu yang hilang, sebuah keindahan alami yang tak bisa tergantikan.
+
+Suatu hari, saat aku menjelajahi pasar yang dipenuhi barang-barang elektronik dan gadget mutakhir, aku mendengar bisikan tentang sebuah perusahaan rahasia yang sedang melakukan eksperimen. Mereka mengklaim bisa memanggil hujan kembali, tetapi dengan risiko tertentu. Rasa penasaran menggelora di hati, dan aku memutuskan untuk menyelidiki.
+
+Setelah beberapa minggu mencari, aku berhasil menemukan alamat tempat itu. Di sudut terpencil kota, terdapat sebuah gedung tua yang tampak terlupakan. Di dalamnya, aku bertemu dengan sekelompok ilmuwan yang berusaha keras untuk mendatangkan kembali hujan. Mereka menjelaskan bahwa teknologi yang mereka kembangkan dapat mengubah atmosfer, tetapi dengan kemungkinan konsekuensi yang belum bisa diprediksi.
+
+Tanpa ragu, aku ikut serta dalam eksperimen itu. Dengan hati berdebar, aku menyaksikan alat-alat canggih bergetar, melepaskan kabut dan partikel ke udara. Beberapa saat kemudian, langit mulai berubah warna, seolah merespons. Dan tiba-tiba, suara ketukan halus mulai terdengar, dahulu seolah hanya mimpi. Hujan pertama itu ternyata membawa harapan dan kecemasan yang bercampur aduk.
+
+Aku berdiri di tengah jalan, menatap ke langit yang mulai menetes. Tetesan hujan pertama menyentuh kulitku, dan aku merasa seolah kembali ke masa kecilku. Rindu ini membangkitkan emosi yang sudah lama terkubur. Namun, dalam sekejap, langit mendung mulai gelap, dan hujan pun deras. Banjir melanda kota dengan cepat, dan aku menyadari bahwa semua tidak bisa dikendalikan sebaik teknologi yang kita ciptakan.
+
+Apa yang dimulai sebagai kebangkitan harapan beralih menjadi bencana. Kini, aku harus membuat keputusan: menghentikan eksperimen ini selamanya atau berjuang untuk membuat hujan menjadi bagian dari kehidupan kami kembali, dengan semua risiko yang menyertainya. Dalam perjalanan ini, aku belajar bahwa tak semua hal dalam hidup bisa dikendalikan, dan kadang, kebebasan dan keindahan datang dari hal-hal yang tak terduga.`,
 
     `Dia bernama Esok. Nama yang aneh, aku tahu. Tapi dia memang berbeda dari siapapun yang pernah kutemui.
 
 "Kenapa namamu Esok?" tanyaku suatu hari.
 
-Dia tersenyum. "Karena aku selalu menantikan hari esok."`,
+Dia tersenyum. "Karena aku selalu menantikan hari esok."
+
+Esok memiliki cara pandang yang unik terhadap hidup. Setiap kali kami berbicara, matanya bersinar dengan semangat yang langka. Dia melihat dunia sebagai tempat penuh kemungkinan, meskipun di sekeliling kami, banyak orang terjebak dalam rutinitas dan kesedihan. Dia adalah pengingat bahwa selalu ada harapan di balik kesulitan.
+
+Suatu sore, saat kami berjalan di taman, Esok menunjuk ke sekumpulan burung yang terbang bebas. "Lihat betapa bahagianya mereka. Mereka tidak berpikir tentang masa lalu atau bahkan hari ini. Mereka hanya menikmati momen itu," katanya. Aku terpesona dengan pandangan hidupnya.
+
+Lalu, dia bercerita tentang impiannya. "Aku ingin menjelajahi dunia. Melihat tempat-tempat yang belum pernah kulihat, bertemu orang-orang baru, dan merasakan budaya yang berbeda," tambahnya. Setiap kata yang keluar dari mulutnya membuat hatiku bergetar. Dia bukan hanya bermimpi; dia benar-benar mempercayainya.
+
+Suatu malam, ketika bintang-bintang terang menghiasi langit, kami duduk di atap rumahku. Esok memulai percakapan tentang arti waktu. "Kita terlalu sering fokus pada apa yang tidak kita miliki, hingga kita lupa untuk menikmati saat ini. Tapi setiap detik adalah sebuah hadiah," ucapnya. Di sanalah aku mulai menyadari betapa berartinya kehadirannya dalam hidupku.
+
+Hari-hari berlalu, dan aku kian dekat dengan Esok. Kami mulai merencanakan sebuah perjalanan. Dengan semangat seolah menular, kami memikirkan destinasi yang jauh, tempat di mana kami bisa merasakan kebebasan. Rencana kami adalah melakukan perjalanan ke sebuah desa kecil yang terletak di pegunungan. Di sana, dia ingin melihat matahari terbenam dengan cara yang belum pernah dia lihat sebelumnya.
+
+Namun, di tengah semua impian itu, rasa takut mulai mengintai. “Bagaimana jika kita tidak bisa pergi?” tanyaku, ragu-ragu. Esok memandangku dengan serius. "Tidak ada perjalanan yang sempurna. Yang penting adalah kita berani melangkah maju, apapun yang terjadi."
+
+Akhirnya, dengan titik antrean di satu tangan dan peta yang diukur di tangan yang lain, kami memulai petualangan yang kami nantikan. Perjalanan itu bukan hanya fisik; itu adalah perjalanan batin mencari makna dalam segala hal. Setiap perhentian membawa pelajaran baru, dari kesederhanaan hidup di desa hingga keceriaan saat bersosialisasi dengan orang-orang setempat.
+
+Ketika kami mencapai puncak gunung, kami duduk berdampingan, memandang langit yang berwarna keemasan saat matahari terbenam. "Inilah yang aku tunggu-tunggu," kata Esok sambil tersenyum. Jiwaku terasa terbang, seolah semua beban hidupku terangkat. Satu pelajaran penting yang kuperoleh dari perjalanan ini adalah bahwa hidup adalah tentang perjalanan, bukan hanya tujuan.
+
+Saat malam tiba dan bintang-bintang kembali bersinar, aku menyadari bahwa aku telah mengubah cara pandangku. Esok telah mengajarkanku untuk melihat hari esok bukan hanya sebagai waktu yang akan datang, tetapi sebagai harapan dan kemungkinan tak terbatas. Kini, setiap pagi ketika matahari terbangun, aku tak sabar menantikan apa yang akan dibawa oleh hari itu. Karena bersamanya, setiap hari adalah sebuah petualangan baru.`,
 
     `Dunia tahun 2050 berbeda dengan dunia yang kalian kenal. Mobil terbang, robot pembantu, dan kota-kota yang menjulang ke langit.
 
